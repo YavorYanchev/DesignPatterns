@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{832BE051-3390-4DBC-8242-328299ECFDF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TheoreticalVersions", "TheoreticalVersions", "{D3120A93-E626-4AF8-9276-702E40849BC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{14BB14FD-C4D1-408B-B053-F13838F18B5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Real-WorldVersions", "Real-WorldVersions", "{686095A5-049B-41CF-928B-D23E0BC75416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photo Decorator", "Photo Decorator\Photo Decorator.csproj", "{7853E4BD-F1C5-4D1A-80D5-9B9E0D0B2C05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14BB14FD-C4D1-408B-B053-F13838F18B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BB14FD-C4D1-408B-B053-F13838F18B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BB14FD-C4D1-408B-B053-F13838F18B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BB14FD-C4D1-408B-B053-F13838F18B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7853E4BD-F1C5-4D1A-80D5-9B9E0D0B2C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7853E4BD-F1C5-4D1A-80D5-9B9E0D0B2C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7853E4BD-F1C5-4D1A-80D5-9B9E0D0B2C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7853E4BD-F1C5-4D1A-80D5-9B9E0D0B2C05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3120A93-E626-4AF8-9276-702E40849BC5} = {832BE051-3390-4DBC-8242-328299ECFDF9}
+		{14BB14FD-C4D1-408B-B053-F13838F18B5D} = {D3120A93-E626-4AF8-9276-702E40849BC5}
+		{686095A5-049B-41CF-928B-D23E0BC75416} = {832BE051-3390-4DBC-8242-328299ECFDF9}
+		{7853E4BD-F1C5-4D1A-80D5-9B9E0D0B2C05} = {686095A5-049B-41CF-928B-D23E0BC75416}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A31D52F-1660-4049-AD7F-97E892D50D10}
+	EndGlobalSection
+EndGlobal

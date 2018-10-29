@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photo Decorator", "Photo De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{B3558E8F-4805-4B20-AF88-2BC3298C6B84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceBook Proxy", "SpaceBook Proxy\SpaceBook Proxy.csproj", "{3B9639CB-A5B8-4690-B45F-269BAB40156D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B3558E8F-4805-4B20-AF88-2BC3298C6B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3558E8F-4805-4B20-AF88-2BC3298C6B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3558E8F-4805-4B20-AF88-2BC3298C6B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9639CB-A5B8-4690-B45F-269BAB40156D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9639CB-A5B8-4690-B45F-269BAB40156D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9639CB-A5B8-4690-B45F-269BAB40156D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9639CB-A5B8-4690-B45F-269BAB40156D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{686095A5-049B-41CF-928B-D23E0BC75416} = {832BE051-3390-4DBC-8242-328299ECFDF9}
 		{7853E4BD-F1C5-4D1A-80D5-9B9E0D0B2C05} = {686095A5-049B-41CF-928B-D23E0BC75416}
 		{B3558E8F-4805-4B20-AF88-2BC3298C6B84} = {D3120A93-E626-4AF8-9276-702E40849BC5}
+		{3B9639CB-A5B8-4690-B45F-269BAB40156D} = {686095A5-049B-41CF-928B-D23E0BC75416}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A31D52F-1660-4049-AD7F-97E892D50D10}

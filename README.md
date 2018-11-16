@@ -24,3 +24,8 @@ Use Decorator when you have:
 * attach additional state or behaviour to an object dynamically
 * make changes to some objects in a class without affecting others
 * avoid subclassing, because too many classes could result
+
+#### Proxy
+Support objects that control the creation of and access to other objects.The proxy is often a small(public) object that stands in for a more complex (private) object that is activated once certain circumstances are clear.
+Proxies are frontends to classes that have sensitive data or slow operations. They are often found in image-drawing systems, where the proxy places a placeholder on the screen and then activates a real drawer to fetch and render the image.
+Proxies, like decorator forward requests on to another object.The difference is that the proxy relationship is set up at design time and is well-known in advance.

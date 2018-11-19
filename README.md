@@ -30,3 +30,16 @@ Proxy is a class functioning as an interface to something else.
 Support objects that control the creation of and access to other objects.The proxy is often a small(public) object that stands in for a more complex (private) object that is activated once certain circumstances are clear.
 Proxies are frontends to classes that have sensitive data or slow operations. They are often found in image-drawing systems, where the proxy places a placeholder on the screen and then activates a real drawer to fetch and render the image.
 Proxies, like decorator forward requests on to another object.The difference is that the proxy relationship is set up at design time and is well-known in advance.
+
+#### Bridge
+Bridge pattern decouples an abstraction from its implementation enabling them to vary independently.
+The bridge pattern is useful when a new version of software is brought out that will replace an existing version, but the older version must still run for its existing client base. The client code will not have to change, as it is conforming to a give abstraction, but the client will need to indicate which version it wants to use.
+
+Use Bridge pattern when you can:
+* Identify that there are operations that do not always need to be implemented the same way
+
+You want to:
+* Completely hide implementations from clients.
+* Avoid binding an implementation to an abstraction directly.
+* Change an implementation without even recompiling an abstraction
+* Combine different parts of a system at runtime

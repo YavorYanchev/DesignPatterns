@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceBook Proxy", "SpaceBook Proxy\SpaceBook Proxy.csproj", "{3B9639CB-A5B8-4690-B45F-269BAB40156D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{E858C520-F5ED-4812-B34C-FA14F87F6345}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{E858C520-F5ED-4812-B34C-FA14F87F6345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenBook Bridge", "OpenBook Bridge\OpenBook Bridge.csproj", "{C3B4D34A-19A8-4796-A3DD-E75E80725AAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{E858C520-F5ED-4812-B34C-FA14F87F6345}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E858C520-F5ED-4812-B34C-FA14F87F6345}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E858C520-F5ED-4812-B34C-FA14F87F6345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B4D34A-19A8-4796-A3DD-E75E80725AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B4D34A-19A8-4796-A3DD-E75E80725AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B4D34A-19A8-4796-A3DD-E75E80725AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B4D34A-19A8-4796-A3DD-E75E80725AAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{B3558E8F-4805-4B20-AF88-2BC3298C6B84} = {D3120A93-E626-4AF8-9276-702E40849BC5}
 		{3B9639CB-A5B8-4690-B45F-269BAB40156D} = {686095A5-049B-41CF-928B-D23E0BC75416}
 		{E858C520-F5ED-4812-B34C-FA14F87F6345} = {D3120A93-E626-4AF8-9276-702E40849BC5}
+		{C3B4D34A-19A8-4796-A3DD-E75E80725AAC} = {686095A5-049B-41CF-928B-D23E0BC75416}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A31D52F-1660-4049-AD7F-97E892D50D10}

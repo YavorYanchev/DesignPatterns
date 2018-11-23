@@ -46,3 +46,11 @@ When a class varies often, the features of OOP become very useful because change
 The bridge pattern is useful when both the class and what it does vary often.
 The class itselt can be thought of as the abstraction and what the class can do
 as the implementation.
+
+## Composite
+
+Composite pattern arranges structured hierarchies so that single components and groups of components can be treated in the same way.Typical operations
+on the components include add, remove, display, find and group.
+The composite pattern has to deal with 2 two types: Components and Composites
+of those components. Both types agree to conform to an interface of common
+operations.Composite object consists of Components, and in most cases operations on a Composite are implemented by calling the equivalent operations for its Component objects.

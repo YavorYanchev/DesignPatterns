@@ -54,3 +54,6 @@ on the components include add, remove, display, find and group.
 The composite pattern has to deal with 2 two types: Components and Composites
 of those components. Both types agree to conform to an interface of common
 operations.Composite object consists of Components, and in most cases operations on a Composite are implemented by calling the equivalent operations for its Component objects.
+
+
+## Adapter

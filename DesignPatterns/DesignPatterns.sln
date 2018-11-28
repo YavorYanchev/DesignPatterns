@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenBook Bridge", "OpenBook
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{AF10BBAB-305E-42D3-8DCB-80536813F5FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoLibrary Composite", "PhotoLibrary Composite\PhotoLibrary Composite.csproj", "{19E45E93-AB59-4DC3-BE5F-D673AF887A6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoLibrary Composite", "PhotoLibrary Composite\PhotoLibrary Composite.csproj", "{19E45E93-AB59-4DC3-BE5F-D673AF887A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{A000D155-AE15-4381-82A2-53B51877C08E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{19E45E93-AB59-4DC3-BE5F-D673AF887A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19E45E93-AB59-4DC3-BE5F-D673AF887A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19E45E93-AB59-4DC3-BE5F-D673AF887A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A000D155-AE15-4381-82A2-53B51877C08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A000D155-AE15-4381-82A2-53B51877C08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A000D155-AE15-4381-82A2-53B51877C08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A000D155-AE15-4381-82A2-53B51877C08E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{C3B4D34A-19A8-4796-A3DD-E75E80725AAC} = {686095A5-049B-41CF-928B-D23E0BC75416}
 		{AF10BBAB-305E-42D3-8DCB-80536813F5FE} = {D3120A93-E626-4AF8-9276-702E40849BC5}
 		{19E45E93-AB59-4DC3-BE5F-D673AF887A6A} = {686095A5-049B-41CF-928B-D23E0BC75416}
+		{A000D155-AE15-4381-82A2-53B51877C08E} = {D3120A93-E626-4AF8-9276-702E40849BC5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A31D52F-1660-4049-AD7F-97E892D50D10}

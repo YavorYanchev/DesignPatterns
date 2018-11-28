@@ -57,3 +57,9 @@ operations.Composite object consists of Components, and in most cases operations
 
 
 ## Adapter
+The adapter pattern enables a system to use classes whose interfaces don't quite match its requirements.
+It is especially useful for off-the-shelf code, for toolkits, and for libraries. Many examples of the Adapter pattern involve input/output
+because that is one domain that is constantly changing.
+Toolkits also need adapters. Although they are designed for reuse, not all applications will want to use the interfaces that toolkits provide;
+some might prefer to stick to a well-known, domain-specific interface. In such cases, the adapter can accept calls from the application
+and transform them into calls on toolkit methods.

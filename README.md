@@ -63,3 +63,16 @@ because that is one domain that is constantly changing.
 Toolkits also need adapters. Although they are designed for reuse, not all applications will want to use the interfaces that toolkits provide;
 some might prefer to stick to a well-known, domain-specific interface. In such cases, the adapter can accept calls from the application
 and transform them into calls on toolkit methods.
+
+Participants:
+* Target
+* Adapter
+* Adaptee
+* Client
+
+Defina a separate ```adapter``` class that converts the
+(incompatible) interface of a class(```adaptee```) into another
+interface (```target```) clients require.
+Work through an ```adapter``` to work with (reuse) classes
+that do not have the required interface.
+

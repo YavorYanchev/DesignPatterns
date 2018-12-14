@@ -81,3 +81,7 @@ that do not have the required interface.
 The role of the facade is to provide different high-level views of subsystems whose
 details are hidden from users. In general, the operations that might be desirable
 from a user's perspective could be made up of different selections of parts of the sybsystems.
+Hiding details is akey programming concept. What makes the facade pattern different from, say,
+the Decorator or Adapter patterns is that the interface it builds up can be entirely new.
+It is not coupled to existing requirements, nor must it conform to existing interfaces.
+There can also be several facades built up around an existing set of subsystems.

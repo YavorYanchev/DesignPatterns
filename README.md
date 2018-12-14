@@ -76,3 +76,8 @@ interface (```target```) clients require.
 Work through an ```adapter``` to work with (reuse) classes
 that do not have the required interface.
 
+
+## Facade
+The role of the facade is to provide different high-level views of subsystems whose
+details are hidden from users. In general, the operations that might be desirable
+from a user's perspective could be made up of different selections of parts of the sybsystems.

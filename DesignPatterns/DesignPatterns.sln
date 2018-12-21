@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter(Pluggable)", "Adapt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{0FE9F5E1-DF7F-49F1-8E0C-5111D127F332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{6EFA7086-938B-4602-B69A-62C825D15026}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{6EFA7086-938B-4602-B69A-62C825D15026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{966BD83C-846E-45AB-AED9-B086C430F546}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{6EFA7086-938B-4602-B69A-62C825D15026}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EFA7086-938B-4602-B69A-62C825D15026}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EFA7086-938B-4602-B69A-62C825D15026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{966BD83C-846E-45AB-AED9-B086C430F546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966BD83C-846E-45AB-AED9-B086C430F546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966BD83C-846E-45AB-AED9-B086C430F546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966BD83C-846E-45AB-AED9-B086C430F546}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +119,7 @@ Global
 		{9B82352E-7103-47F7-8D2E-3B2F183C8197} = {D3120A93-E626-4AF8-9276-702E40849BC5}
 		{0FE9F5E1-DF7F-49F1-8E0C-5111D127F332} = {D3120A93-E626-4AF8-9276-702E40849BC5}
 		{6EFA7086-938B-4602-B69A-62C825D15026} = {D3120A93-E626-4AF8-9276-702E40849BC5}
+		{966BD83C-846E-45AB-AED9-B086C430F546} = {D3120A93-E626-4AF8-9276-702E40849BC5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A31D52F-1660-4049-AD7F-97E892D50D10}

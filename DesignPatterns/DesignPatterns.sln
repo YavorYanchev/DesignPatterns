@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton(Generic Version)", "Singleton(Generic Version)\Singleton(Generic Version).csproj", "{DE6EFEA1-899C-4F06-804F-9DCFE1314A8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory", "Abstract Factory\Abstract Factory.csproj", "{335336F9-E178-4988-8577-A598FBD08C95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{DE6EFEA1-899C-4F06-804F-9DCFE1314A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE6EFEA1-899C-4F06-804F-9DCFE1314A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE6EFEA1-899C-4F06-804F-9DCFE1314A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335336F9-E178-4988-8577-A598FBD08C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335336F9-E178-4988-8577-A598FBD08C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335336F9-E178-4988-8577-A598FBD08C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335336F9-E178-4988-8577-A598FBD08C95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,6 +133,7 @@ Global
 		{6EFA7086-938B-4602-B69A-62C825D15026} = {D3120A93-E626-4AF8-9276-702E40849BC5}
 		{966BD83C-846E-45AB-AED9-B086C430F546} = {D3120A93-E626-4AF8-9276-702E40849BC5}
 		{DE6EFEA1-899C-4F06-804F-9DCFE1314A8F} = {D3120A93-E626-4AF8-9276-702E40849BC5}
+		{335336F9-E178-4988-8577-A598FBD08C95} = {D3120A93-E626-4AF8-9276-702E40849BC5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A31D52F-1660-4049-AD7F-97E892D50D10}

@@ -10,7 +10,7 @@ I am using this repository only for learning purposes. Don't arrest me! :)
 The patterns are from the book “C# 3.0 Design Patterns, by Judith Bishop. Copyright 2008 Judith Bishop, 978-0-596-52773-0.”
 
 
-## Structural 
+# Structural 
 
 ## Decorator
 Provide a way of attaching new state and behaviour to an object dynamically.The object does not know it is being "decorated", which makes this useful pattern for evolving systems.
@@ -85,3 +85,16 @@ Hiding details is akey programming concept. What makes the facade pattern differ
 the Decorator or Adapter patterns is that the interface it builds up can be entirely new.
 It is not coupled to existing requirements, nor must it conform to existing interfaces.
 There can also be several facades built up around an existing set of subsystems.
+
+
+# Creational
+
+## Factory Method
+The factory method pattern is a way of creating objects, but letting subclasses decide 
+exactly which class to instantiate. Various subclasses might implement the interface;
+the Factory Method instantiates the appropriate subclass based on information supplied
+by the client or extracted from the current state.The factory method pattern is a creational
+pattern that uses factory methods to deal with the problem of creating objects without having
+to specify the exact class of the object that will be created. This is done by calling a factory
+method -either specified in an interface and implemented by child classes, or implemented in a base
+class and optionally overriden by derived classes - rather than by calling a constructor.

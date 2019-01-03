@@ -98,3 +98,9 @@ pattern that uses factory methods to deal with the problem of creating objects w
 to specify the exact class of the object that will be created. This is done by calling a factory
 method -either specified in an interface and implemented by child classes, or implemented in a base
 class and optionally overriden by derived classes - rather than by calling a constructor.
+
+## Abstract Factory
+This pattern supports the creation of products that exist in families and are designed to be
+produced together.The abstract factory can be refined to concrete factories, each of which can
+create different products of different types and in different combinations.The pattern also isolates
+the product definitions and their class names from the client so that the only way to get one of them is through a factory.For this reason, product families can easily be interchanged or updated without upsetting the structure of the client.

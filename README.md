@@ -104,3 +104,10 @@ This pattern supports the creation of products that exist in families and are de
 produced together.The abstract factory can be refined to concrete factories, each of which can
 create different products of different types and in different combinations.The pattern also isolates
 the product definitions and their class names from the client so that the only way to get one of them is through a factory.For this reason, product families can easily be interchanged or updated without upsetting the structure of the client.
+The abstract factory provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes. In normal usage the client software creates a concrete implementation of abstract factory and then uses the generic interface of the factory to create the concrete objects that are part of the theme.
+The client doesn't know (or care) which concrete objects it gets from each of these internal factories since it uses only the
+generic interfaces of their products.This pattern separates the details of implementation of a set of objects from their general
+usage and relies on object composition, as object creation is implemented in methods exposed in the factory interface.
+Use of this pattern makes it possible to interchange concrete implementations without changing the code that uses them,
+even at runtime. However, employment of this pattern, as with similar design patterns, may result in unnecessary complexity 
+and extra work in the initial writing of code. Additionaly, higher levels of separation and abstraction can result in systems that are more difficult to debud and mantain.

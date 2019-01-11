@@ -111,3 +111,15 @@ usage and relies on object composition, as object creation is implemented in met
 Use of this pattern makes it possible to interchange concrete implementations without changing the code that uses them,
 even at runtime. However, employment of this pattern, as with similar design patterns, may result in unnecessary complexity 
 and extra work in the initial writing of code. Additionaly, higher levels of separation and abstraction can result in systems that are more difficult to debud and mantain.
+
+# Behavioral patterns
+
+## Strategy
+The strategy pattern involves removing an algorithm from its host
+class and putting it in a separate class.There may be different algorithms(strategies)
+that are applicable for a given problem.
+If the algorithms are all kept in the host, messy code with
+lots of conditional statements will result.
+The Strategy pattern enables a client to choose which algorithms to use from a family of algorithms and gives a simple
+way to access it. The algorithms can also be expressed
+independently of the data they are using.

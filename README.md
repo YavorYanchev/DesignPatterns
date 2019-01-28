@@ -123,3 +123,18 @@ lots of conditional statements will result.
 The Strategy pattern enables a client to choose which algorithms to use from a family of algorithms and gives a simple
 way to access it. The algorithms can also be expressed
 independently of the data they are using.
+
+
+## State
+
+Allows object to alter its behaviour when its internal state changes. This pattern is close to the concept of finite-state
+machines. 
+The state patern can be implemented as a strategy pattern, which is able to switch a strategy though invocations of methods
+defined in the pattern's interface.
+Used to encapsulate varying behaviour for the same object, based on its intenal state. This can be cleaner way for an object to change
+its behaviour at runtime without resorting to conditional statements and thus improve maintainability.
+State pattern is set to solve 2 main problems:
+* an object should change its behaviour when its internal state changes
+* state-specific behaviour should be defined independently. 
+That is, adding new states should not affect the behaviour of existing states.
+

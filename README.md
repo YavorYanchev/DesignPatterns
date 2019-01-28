@@ -138,3 +138,13 @@ State pattern is set to solve 2 main problems:
 * state-specific behaviour should be defined independently. 
 That is, adding new states should not affect the behaviour of existing states.
 
+Implementing state-specific bahaviour directly within a class is inflexible because
+it commits the class to a particular behaviour and makes it impossible to add a new state or change the behaviour of an existing 
+state later independently from(without changing) the class. In this, the pattern describes 2 solutions:
+* Define separate(state) objects that encapsulate state-specific behaviour for each state. That is,
+define an interface(state) for performing state-specific behaviour, and define classes that implement the interface for each state
+* A class delegates state-specific behaviour to its current state object instead of implementing state-specific behaviour directly.
+
+This makes a class independent of how state-specific behavious is implemented.
+New states can be added by defining new state classes. A class can change its behaviour at run-time by changing its current
+state object.

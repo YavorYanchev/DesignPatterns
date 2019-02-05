@@ -148,3 +148,16 @@ define an interface(state) for performing state-specific behaviour, and define c
 This makes a class independent of how state-specific behavious is implemented.
 New states can be added by defining new state classes. A class can change its behaviour at run-time by changing its current
 state object.
+
+
+## Template method
+Defines the program skeleton of an algorithm in an operation, deferring some steps to subclasses.
+It lets one redefine certain steps of an algorithm without changing the algorithm's structure.
+* Generally implemented as a base class(possibly an abstract class), which contains shared code and parts
+of the overall algorithm which are invariant. The template ensures that the overarching algorithm is always followed.
+In this class "variant" portins are given a default implementation, or none at all.
+* Concrete implementations of the abstract class, which fill in the empty or "variant" parts of the "template" with
+specific algorithms that vary from implementation to implementation.
+
+Template method is an example of Inversion of Control because high-level code no longer determines what algorithms
+to run; at lower-level algorithm is instead selected at run-time.

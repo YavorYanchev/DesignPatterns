@@ -1,13 +1,30 @@
-# DesignPatterns
+# DesignPatterns And Principles
 Structural, Creational and Behavioral Patterns
 
-This repository is containing design patterns that provide solutions to common problems.
+This repository is containing design patterns and principles that provide solutions to common problems.
 
 The code used for the design patterns is C#.
 
 I am using this repository only for learning purposes. Don't arrest me! :)
 
-The patterns are from the book “C# 3.0 Design Patterns, by Judith Bishop. Copyright 2008 Judith Bishop, 978-0-596-52773-0.”
+The patterns are from the book “C# 3.0 Design Patterns, by Judith Bishop. Copyright 2008 Judith Bishop, 978-0-596-52773-0.”.There are also examples from other sites,which are not linked, 
+but I am not making any money from this so please don't kill me.(I can do it on my own! :) ) 
+
+# Composition over inheritance
+Composition over inheritance is the principle that classes should achieve polymorphic behaviour
+and code reuse by their composition(by containing instances of other classes that implement
+ the desired functionality) rather than inheritance from a base or parent class.
+
+ Basics:
+ An implementation of composition ofver inheritance typically begins with the creation of 
+ various interfaces representing the behaviours that the system must exhibit. Interfaces
+ enable polymorphic behaviour. Classes implementing the identified interfaces are built and added
+ to business domain classes as needed. Thus system behabiours are realized without inheritance.
+
+In fact, business domain classes may all be base classes without any inheritance at all.
+Alternative implementation of system behaviours is accomplished by providing another class
+that implements the desired behaviour interface. A class that contain a reference to an interface
+can support implementations of the interface - a choice that can be delayed until run time.
 
 
 # Structural 

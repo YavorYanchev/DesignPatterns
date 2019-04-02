@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{832BE051-3390-4DBC-8242-328299ECFDF9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{832BE051-3390-4DBC-8242-328299ECFDF9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TheoreticalVersions", "TheoreticalVersions", "{D3120A93-E626-4AF8-9276-702E40849BC5}"
 EndProject
@@ -49,7 +49,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Account State", "Account St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template Method", "Template Method\Template Method.csproj", "{C8634260-3D5D-4759-8D05-A32877A24C6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exporter Template Method", "Exporter Template Method\Exporter Template Method.csproj", "{C20EB00D-B2D1-4EBF-9AA6-77442B0EE540}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exporter Template Method", "Exporter Template Method\Exporter Template Method.csproj", "{C20EB00D-B2D1-4EBF-9AA6-77442B0EE540}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Principles", "Principles", "{43AA2228-D5BE-416B-A6F6-7B590822D353}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositionAndInterfaces", "CompositionAndInterfaces\CompositionAndInterfaces.csproj", "{EE3A0C97-4BCB-4EED-9049-E88A6D1FF497}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +145,10 @@ Global
 		{C20EB00D-B2D1-4EBF-9AA6-77442B0EE540}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C20EB00D-B2D1-4EBF-9AA6-77442B0EE540}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C20EB00D-B2D1-4EBF-9AA6-77442B0EE540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE3A0C97-4BCB-4EED-9049-E88A6D1FF497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3A0C97-4BCB-4EED-9049-E88A6D1FF497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3A0C97-4BCB-4EED-9049-E88A6D1FF497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3A0C97-4BCB-4EED-9049-E88A6D1FF497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -169,6 +177,7 @@ Global
 		{C959C5A1-CB2D-485C-8EFD-BA6A1E977D82} = {686095A5-049B-41CF-928B-D23E0BC75416}
 		{C8634260-3D5D-4759-8D05-A32877A24C6F} = {D3120A93-E626-4AF8-9276-702E40849BC5}
 		{C20EB00D-B2D1-4EBF-9AA6-77442B0EE540} = {686095A5-049B-41CF-928B-D23E0BC75416}
+		{EE3A0C97-4BCB-4EED-9049-E88A6D1FF497} = {43AA2228-D5BE-416B-A6F6-7B590822D353}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A31D52F-1660-4049-AD7F-97E892D50D10}
